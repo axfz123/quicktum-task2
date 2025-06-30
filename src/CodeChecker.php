@@ -7,7 +7,7 @@ class CodeChecker {
 
     public function __construct(string $str)
     {
-        $this->str = $str;
+        $this->setStr($str);
     }
 
     public function isValid(): bool
